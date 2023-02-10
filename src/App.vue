@@ -1,4 +1,5 @@
 <template>
+  <div id="main">
   <div class="container my-5">
     <h1 class="title text-center">Weather in</h1>
     <form class="search-location">
@@ -9,7 +10,7 @@
         autocomplete="off"
       />
     </form>
-    <div class="card rounded my-3 shadow-lg back-card overflow-hidden">
+    <div class="card form-rounded my-3 shadow-lg back-card overflow-hidden">
       <div class="card-top text-center" style="margin-bottom: 15rem">
       <div class="city-name my-3">
         <p>Phuket</p>
@@ -55,6 +56,7 @@
     </div>
   </div>
 </div>
+</div>
 </template>
 
 <script>
@@ -63,5 +65,8 @@ export default {
 };
 </script>
 
-<style>
+
+<style scoped>
+@import "./assets/custom.css";
+@import "./assets/animation.css";
 </style>
