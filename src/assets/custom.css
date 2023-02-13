@@ -47,7 +47,7 @@
 }
 
 .temp span {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 5em;
   letter-spacing: -5px;
   white-space: nowrap;
@@ -72,7 +72,7 @@
 
 .card-bottom p {
   font-size: 50px;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: -3px;
 }
 .card-bottom {
@@ -86,4 +86,8 @@
 .form-control:focus {
   box-shadow: none;
   border-color: inherit;
+}
+
+.card-body{
+  z-index: 1;
 }
